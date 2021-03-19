@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color:gray;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-right {
+  float: right;
+  background-color:floralwhite;
+  transition: all 0.5s;
+}
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-right a {
+  color:black;
+  line-height: 65px;
+  padding: 0 25px;
+  display: block;
+}
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+  url("../../media/examples/lizard.png");
+  background-size:　cover;
+  color: white;
+  text-align: center;
+}
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+.btn-wrapper {
+  margin: 20px 0;
+}
+.signup {
+  background-color:steelblue;
+}
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 1;
+}
+.btn:hover {
+  opacity: 1;
+}
+.heading h2 {
+  font-weight: normal;
+}
+.heading h3 {
+  font-weight: normal;
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.message {
+  padding: 15px 40px;
+  background-color:gold;
+  cursor: pointer;
+  box-shadow:0 7px rgb(141, 109, 28);
+  border-radius: 10px;
+}
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
